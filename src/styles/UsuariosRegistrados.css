@@ -1,0 +1,86 @@
+.registered-div {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  z-index: 100;
+  padding: 25px 20px;
+  max-width: 285px;
+  background-color: white;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.registered-div h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.registered-div input {
+  margin-top: 20px;
+  border-radius: 8px;
+  background-color: #f0eded;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.registered-profile-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.users-wrapper {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.profile-registered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.profile-registered {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-registered span {
+  font-size: 12px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .input-container i {
+    position: absolute!important;
+    left: 10px;
+    top: 67%;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; 
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .input-container input::placeholder {
+    color: #aaa;
+  }
+  
