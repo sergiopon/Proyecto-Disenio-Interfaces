@@ -1,0 +1,152 @@
+.liked-popup-container {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    z-index: 200;
+    display: grid;
+    gap: 20px;
+    border-radius: 20px;
+    width: 425px;
+    padding: 30px 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+.liked-wrapper {
+    display: grid;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.liked-parche {
+    display: flex;
+    padding: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    gap: 15px;
+}
+
+.liked-popup-container h4 {
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.liked-parche-img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.liked-parche-ctn {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 280px;
+    gap: 3px;
+}
+
+.liked-parche-ctn a {
+    color: #06081F;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.liked-parche-ctn span {
+    color: #424242;
+    font-size: 12px;
+}
+
+.liked-parche-btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.liked-parche-btn a {
+    padding: 5px 10px;
+    background-color: #adeff2;
+    border-radius: 5px;
+    color: #5caaad;
+    font-size: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .liked-popup-container {
+        max-width: 100%;
+        min-width: 435px;
+        right: 10px;
+        padding: 20px;
+    }
+
+    .liked-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
+    }
+
+    .liked-parche {
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .liked-parche-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .liked-parche-ctn {
+        width: 100%;
+    }
+
+    .liked-parche-btn {
+        justify-content: flex-end;
+    }
+
+    .liked-parche-btn a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .liked-popup-container {
+        padding: 15px;
+        min-width: 305px;
+        right: 50%; 
+        left: 0;
+        transform: translateX(-85%);
+    }
+
+    .liked-wrapper {
+        margin: 0;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+    }
+    
+    .liked-parche {
+      flex-direction: column;
+    }
+
+    .liked-parche-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .liked-parche-ctn a {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .liked-parche-ctn span {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+

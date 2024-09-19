@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "username": "Isabella",
+      "profileImage": "https://pics.craiyon.com/2023-05-23/7130319ef5f04aed8eb8aaa6624b936e.webp",
+      "fecha": "2024-09-19",
+      "imagenDestacada": "https://img.freepik.com/foto-gratis/grupo-joven-amigos-haciendo-fiesta-playa_23-2147643669.jpg?t=st=1726726563~exp=1726730163~hmac=4b822f4be8b3594949acf8ac0b0a38aee34eaf6da71df8cadf537f1bb3154f72&w=826",
+      "dia": "19",
+      "mes": "Sep",
+      "titulo": "Fiesta en la playa",
+      "descripcionCorta": "Una increíble fiesta junto al mar.",
+      "likes": 120,
+      "comments": 45,
+      "usuariosRegistrados": [
+        { "profileImage": "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/e40b6ea6361a1abe28f32e7910f63b66/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" },
+        { "profileImage": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Foto_Perfil_.jpg" },
+        { "profileImage": "https://png.pngtree.com/background/20230519/original/pngtree-young-woman-anime-cartoon-drawing-picture-image_2660945.jpg" }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Valentina<3",
+      "profileImage": "https://img.freepik.com/foto-gratis/hermosa-nina-sonriendo-sinceramente-pared-aislada-modelo-corona-flores-posando-retrato-perfil_197531-14305.jpg?t=st=1726728821~exp=1726732421~hmac=81ab0547670520627f9e234bd5e25b40ea7186c22a86acdd208f4fb92efc63c8&w=360",
+      "fecha": "2024-10-01",
+      "imagenDestacada": "https://img.freepik.com/foto-gratis/vista-posterior-multitud-fans-viendo-actuaciones-directo-concierto-musica-noche-copiar-espacio_637285-544.jpg?t=st=1726728874~exp=1726732474~hmac=fbae32e9c5cab39e7040b303016ef6d6c7f3733d9705f3e60988f120400580bb&w=996",
+      "dia": "01",
+      "mes": "Oct",
+      "titulo": "Concierto en el parque",
+      "descripcionCorta": "Disfruta de un gran concierto al aire libre.",
+      "likes": 200,
+      "comments": 60,
+      "usuariosRegistrados": [
+        { "profileImage": "https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/e40b6ea6361a1abe28f32e7910f63b66/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg" },
+        { "profileImage": "https://png.pngtree.com/background/20230519/original/pngtree-young-woman-anime-cartoon-drawing-picture-image_2660945.jpg" }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.review-slider-main-container {
+    max-width: 650px; 
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.review-slider {
+    min-height: 300px;
+    position: relative;
+    width: 100%; 
+    overflow-x: hidden;
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.review-container {
+    display: none;
+    width: 100%;
+    max-width: 100%; 
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease;
+}
+
+.review-container.active {
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    background-color: #5CE1E6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.prev {
+    left: 10px; 
+}
+
+.next {
+    right: 10px;
+} 
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+
+.profile-pic-review {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.profile-username {
+    margin-left: 10px;
+}
+
+.profile-username a {
+    color: #06081F;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.review-content {
+    font-size: 15px;
+    font-weight: 300;
+    color: #6C6C6C;
+}
+
+.review-replies {
+    color: #5CE1E6;
+    font-size: 12.5px;
+    text-decoration: none;
+}
+
+.review-stars i {
+    color: #FFAC33;
+}
+
+.all-reviews-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #06081F;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: ease-in 0.2s;
+}
+
+.all-reviews-btn:hover {
+    background-color: #8338EC;
+}
+
+@media (max-width: 950px){
+    .profile-username a, .review-stars i  {
+        font-size: 15px;
+    }
+    .review-content {
+        font-size: 15px;
+    }
+}

@@ -20,7 +20,9 @@
     height: 35px;
     border-radius: 50%;
     margin-right: 10px;
+    cursor: pointer;
 }
+
 
 .textual-content-header-card-v1 {
     display: flex;
@@ -31,6 +33,7 @@
     font-size: 16px;
     color: #06081F;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .textual-content-header-card-v1 p {
@@ -106,6 +109,7 @@
     height: 28px;
     border-radius: 50%;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 .registered-card-v1 img:not(:first-child) {
@@ -113,8 +117,14 @@
 }
 
 .bar-card-v1 i {
+    cursor: pointer;
     font-size: 20px;
     color: #9597A1;
+    transition: color .5s;
+}
+
+.bar-card-v1 i:hover, .bar-card-v1 i:active  {
+    color: #EF4444;
 }
 
 .footer-card-v1 {
@@ -129,6 +139,8 @@
     justify-content: center;
 }
 
+
+
 .icon-div-card-v1 i {
     font-size: 15px;
     color: #9597A1;
@@ -140,6 +152,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: ease-in .2s;
 }
 
 .icon-div-card-v1 i:hover,
@@ -152,4 +165,13 @@
     font-size: 12px;
     color: #06081F;
     margin-left: 5px;
+}
+
+.header-card-v1 {
+    position: relative;
+}
+
+.usuarios-registrados-wrapper {
+    position: absolute;
+    z-index: 100;
 }
